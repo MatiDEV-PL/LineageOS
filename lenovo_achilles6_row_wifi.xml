@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<manifest>
+
+    <remote name="vendor"
+            fetch="https://github.com"
+            revision="main" />
+	
+    <remote name="device"
+            fetch="https://github.com"
+            revision="main"/>
+
+    <remote name="kernel"
+            fetch="https://github.com"
+            revision="main"/>
+
+    <!--Device Trees-->
+    <project path="device/lenovo/achilles6_row_wifi" name="MatiDEV-PL/device_lenovo_achilles6_row_wifi" remote="device" />
+
+
+    <!--Kernel-->
+    <project path="kernel/lenovo/achilles6_row_wifi" name="MatiDEV-PL/lenovo_kernel_x606f" remote="kernel" />
+
+
+
+    <!-- Vendor folders -->
+    <project path="vendor/lenovo/achilles6_row_wifi" name="MatiDEV-PL/vendor_lenovo_achilles6_row_wifi" remote="vendor" />
+</manifest>
