@@ -19,7 +19,7 @@
 
 
     <!--Kernel-->
-    <project path="kernel/lenovo/achilles6_row_wifi" name="MatiDEV-PL/lenovo_kernel_x606f" remote="kernel" />
+    <project path="kernel/lenovo/achilles6_row_wifi" name="MatiDEV-PL/kernel_lenovo_achilles6_row_wifi" remote="kernel" />
 
 
 
